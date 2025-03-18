@@ -1,7 +1,7 @@
 # Site settings
-title: "My Academic Site"
-description: "A website showcasing my research, publications, and academic work."
-author: "Your Name"
+title: "Nicolas Berlinski"
+description: "Welcome! I am a second-year PhD student in Economics at the University of Maryland, College Park. I am interested in industrial organization, public economics, development, and political economy."
+author: "Nicolas Berlinski"
 
 # Theme settings (using a remote theme example)
 remote_theme: pages-themes/minimal@v0.2.0
