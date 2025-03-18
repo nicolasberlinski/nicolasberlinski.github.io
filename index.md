@@ -7,3 +7,7 @@ Prior to starting my PhD, I received a B.A. in Economics and Government from Dar
 # Fields of Interest
 Main: public economics, industrial organization
 Minor: political economy, development
+
+# Publications 
+- **The Effects of Unsubstantiated Claims of Voter Fraud on Confidence in Elections** - with Brendan Nyhan, Jason Reifler, Andrew Guess, Benjamin Lyons, Margaret Doyle, and Gabrielle Levy. *Journal of Experimental Political Science, 2021*
+  [Link](https://www.cambridge.org/core/journals/journal-of-experimental-political-science/article/effects-of-unsubstantiated-claims-of-voter-fraud-on-trust-in-elections/9B4CE6DF2F573955071948B9F649DF7A)
