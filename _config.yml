@@ -20,10 +20,9 @@ profiles:
   - name: LinkedIn
     url: https://www.linkedin.com/in/nicolas-berlinski/
 
-# Google Search Console: uncomment and paste the "HTML tag" verification
-# code here (only the content="..." value), then push.
-# webmaster_verifications:
-#   google: "PASTE_CODE_HERE"
+# Google Search Console verification (the content="..." value of the HTML tag)
+webmaster_verifications:
+  google: "3q9gxo49taK1CfDLdKBSW9xpdH7RI4U1P598IhL60Mo"
 
 plugins:
   - jekyll-seo-tag
