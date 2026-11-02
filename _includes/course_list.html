@@ -1,0 +1,8 @@
+<ul class="courses">
+  {%- for c in include.courses %}
+  <li>
+    <span class="course">{{ c.course }}</span>
+    <span class="meta">{{ c.level }} · {{ c.terms }}</span>
+  </li>
+  {%- endfor %}
+</ul>

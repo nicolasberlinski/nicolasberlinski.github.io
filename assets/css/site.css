@@ -1,0 +1,175 @@
+:root {
+  --bg: #fbfaf7;
+  --ink: #1a1c20;
+  --muted: #5f6670;
+  --rule: #e6e3dc;
+  --accent: #1f3a5f;
+  --accent-hover: #2f5a8f;
+  --band: #1f3a5f;
+  --band-ink: #ffffff;
+  --band-muted: #c9d6e6;
+  --serif: "Iowan Old Style", "Charter", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14171c;
+    --ink: #e6e8eb;
+    --muted: #9ea5af;
+    --rule: #2e333b;
+    --accent: #8fb3e0;
+    --accent-hover: #b3cdee;
+    --band: #1a2c45;
+    --band-ink: #f2f4f7;
+    --band-muted: #a9bbd2;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.page {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 0.75rem 1.25rem 2rem;
+}
+
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { color: var(--accent-hover); }
+
+/* Header band */
+.band {
+  background: var(--band) url("../img/skyline.svg") repeat-x left bottom / auto 140px;
+  color: var(--band-ink);
+}
+
+.intro {
+  display: flex;
+  gap: 1.75rem;
+  align-items: center;
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 3rem 1.25rem;
+}
+
+.headshot {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 3px solid var(--band-muted);
+}
+
+.band .role { color: var(--band-muted); }
+.band a { color: var(--band-ink); text-decoration-color: var(--band-muted); }
+.band a:hover { color: var(--band-muted); }
+
+h1 {
+  margin: 0 0 0.25rem;
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+.role { margin: 0 0 0.75rem; color: var(--muted); }
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--sans);
+  font-size: 0.95rem;
+}
+
+/* Sections */
+section { padding-top: 2.25rem; }
+
+h2 {
+  margin: 0 0 1rem;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+h2.sub { margin-top: 2rem; }
+
+h3 {
+  margin: 1.25rem 0 0.5rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+section p { margin: 0 0 1rem; }
+
+/* Papers */
+.papers, .courses { margin: 0; padding: 0; list-style: none; }
+
+.papers li { margin-bottom: 1.4rem; }
+
+.papers .title { margin: 0; font-weight: 600; line-height: 1.4; }
+.papers .title a { color: inherit; }
+.papers .title a:hover { color: var(--accent); }
+
+.meta {
+  margin: 0.15rem 0 0;
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+
+details { margin-top: 0.35rem; }
+
+summary {
+  cursor: pointer;
+  width: fit-content;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--accent);
+}
+
+details p {
+  margin: 0.6rem 0 0;
+  padding-left: 1rem;
+  border-left: 2px solid var(--rule);
+  font-size: 1rem;
+}
+
+/* Teaching */
+.courses li { margin-bottom: 0.6rem; }
+.courses .course { display: block; }
+.courses .meta { display: block; margin: 0; }
+
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 0.8rem;
+}
+
+footer p { margin: 0; }
+
+@media (max-width: 560px) {
+  .intro { flex-direction: column; align-items: flex-start; gap: 1.25rem; padding: 2rem 1.25rem; }
+  .headshot { width: 120px; height: 120px; }
+  h1 { font-size: 1.9rem; }
+}

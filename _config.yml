@@ -1,14 +1,36 @@
 # Site settings
 title: "Nicolas Berlinski"
-description: " "
-logo: headshot.jpeg
+tagline: "Economics PhD Candidate, University of Maryland"
+description: >-
+  Nicolas Berlinski is a PhD candidate in Economics at the University of
+  Maryland, College Park, working on public finance and urban economics.
+url: "https://nicolasberlinski.github.io"
 author: "Nicolas Berlinski"
+lang: en-US
+logo: /headshot.jpeg
 
-# Theme settings (using a remote theme example)
-remote_theme: pages-themes/minimal@v0.2.0
+# Contact and profiles (shown in the header; also used for search engines)
+email: nberlinski98@gmail.com
+affiliation: "University of Maryland, College Park"
+department: "Department of Economics"
+role: "PhD Candidate in Economics"
+profiles:
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=vgPG-IEAAAAJ&hl=en
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/nicolas-berlinski/
+
+# Google Search Console: uncomment and paste the "HTML tag" verification
+# code here (only the content="..." value), then push.
+# webmaster_verifications:
+#   google: "PASTE_CODE_HERE"
+
 plugins:
-  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal  # optional if using remote_theme
+
+exclude:
+  - README.md
+  - LICENSE

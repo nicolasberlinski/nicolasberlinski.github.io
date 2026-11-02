@@ -1,0 +1,84 @@
+# Papers shown on the homepage. Each section is a list; add a paper by copying an entry.
+# Optional fields: coauthors, status, link (URL or path to a PDF), abstract,
+# coverage (list of outlet + url).
+
+working_papers:
+  - title: "Property Tax Self-Sufficiency and New Housing: Evidence from New York City"
+    status: "Draft available upon request"
+    abstract: >-
+      This paper evaluates the property tax self-sufficiency of new housing in
+      New York City. I develop a sufficient-statistics framework based on the
+      congestion-fee view of property taxes, linking the fiscal self-sufficiency
+      of new housing to property value gains, exemption take-up, price
+      spillovers, and public service cost elasticities. I apply this framework
+      to parcel-level data on redevelopment and property tax histories. Poisson
+      event studies and Extended Two-Way Fixed Effects designs indicate that,
+      post-redevelopment, appraised market values and property tax liabilities
+      rise to approximately 4.6 and 4.2 times their pre-redevelopment levels.
+      Across redevelopment in my sample, the estimated annual property tax
+      revenue gain is $1.1–1.3 billion net of exemptions. Holding observed
+      development fixed, this gain would be $4.0–4.3 billion without
+      exemptions. Revenue gains are concentrated in high-value redevelopment,
+      creating scope to cross-subsidize property tax benefits for development
+      elsewhere. I find no evidence of local price spillovers from the
+      literature passing through to appraised values of nearby properties in a
+      spatial differences-in-differences design. However, sensitivity
+      exercises, which use local and citywide price responses from the
+      literature, suggest that pass-through of property value deflation from
+      housing supply expansions to appraised values could erode a substantial
+      share of the direct parcel-level gain. Direct revenue gains cover
+      incremental service costs if marginal costs are at most 25% of current
+      spending per household. This break-even threshold rises to 77% without
+      exemptions. Assuming incremental revenue is allocated to public services
+      in proportion to current budget shares, calibrated ratios of marginal to
+      average school costs straddle the 25% threshold.
+
+works_in_progress:
+  - title: "Red Tape or Green Preservation? Environmental Review and Housing Development"
+    abstract: >-
+      New housing projects are often subject to local environmental review.
+      Critics decry these reviews as red tape that deters housing by adding
+      uncertainty, delay, and cost to much-needed residential development.
+      Defenders argue that environmental review is a necessary process that
+      identifies and mitigates the negative externalities of irreversible new
+      development. This paper studies the tradeoff between externality
+      mitigation and housing supply in the Seattle metropolitan area under
+      Washington State's environmental review law, the State Environmental
+      Policy Act (SEPA). I combine granular permit data across jurisdictions in
+      the Seattle metro area with a novel LLM-assisted dataset recording which
+      anticipated externalities the SEPA process discloses and the review
+      outcomes that follow.
+  - title: "Algorithmic Tax Audit Selection: Evidence from the Dominican Republic"
+    coauthors: "Thiago Scot and Jose Carlos Bermúdez"
+    abstract: >-
+      Tax authorities worldwide are making large investments in information
+      technology systems that digitize, synthesize, and cross-check granular
+      tax data in order to improve tax collection and enforcement. This
+      phenomenon raises questions about how bureaucrats interact with these
+      technologies and to what extent they augment tax capacity. We study the
+      rollout of a new deterministic risk-based audit-ranking algorithm in the
+      Dominican Republic, exploiting audit-, auditor-, and taxpayer-level data.
+      The algorithm combines granular taxpayer and third-party tax filing data,
+      synthesizing cross-checks for filing consistency, and prioritizing audit
+      candidates. Upon implementation of the reform, auditors were mandated to
+      select a fixed share of quarterly audits from the algorithm's
+      high-priority candidates, allowing us to study how the algorithm changes
+      bureaucrats' audit selection behavior. We integrate our analyses into
+      theoretical models of optimal audit selection.
+
+publications:
+  - title: "The Effects of Unsubstantiated Claims of Voter Fraud on Confidence in Elections"
+    coauthors: "Brendan Nyhan, Jason Reifler, Andrew Guess, Benjamin Lyons, Jacob M. Montgomery, Margaret Doyle, and Gabrielle Levy"
+    venue: "Journal of Experimental Political Science"
+    year: 2021
+    link: https://www.cambridge.org/core/journals/journal-of-experimental-political-science/article/effects-of-unsubstantiated-claims-of-voter-fraud-on-confidence-in-elections/9B4CE6DF2F573955071948B9F649DF7A
+    coverage:
+      - outlet: The Atlantic
+        url: https://www.theatlantic.com/ideas/archive/2020/06/election-confidence-fraud/612358/
+      - outlet: The Guardian
+        url: https://www.theguardian.com/us-news/2021/jul/01/researchers-reveal-corrosive-power-of-trump-lie-of-a-stolen-election
+  - title: "The Limited Effects of Partisan and Consensus Messaging in Correcting Science Misperceptions"
+    coauthors: "Vignesh Chockalingam, Victor Wu, Zoe Chandra, Amy Hu, Erik Jones, Justin Kramer, Xiaoqiu Steven Li, Thomas Monfre, Yong Sheng Ng, Madeleine Sach, Maria Smith-Lopez, Sarah Solomon, Andrew Sosanya, and Brendan Nyhan"
+    venue: "Research & Politics"
+    year: 2021
+    link: https://journals.sagepub.com/doi/10.1177/20531680211014980

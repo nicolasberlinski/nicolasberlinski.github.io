@@ -1,0 +1,20 @@
+# Courses shown on the homepage, grouped by role. Most recent first.
+
+instructor:
+  - course: "ECON 454: Public Finance and Public Policy"
+    level: Undergraduate
+    terms: "Summer 2026"
+
+teaching_assistant:
+  - course: "ECON 326: Intermediate Microeconomics"
+    level: Undergraduate
+    terms: "Fall 2026"
+  - course: "ECON 673: Information, Game Theory, and Market Design"
+    level: "M.S. in Applied Economics"
+    terms: "Spring 2026, Spring 2025"
+  - course: "ECON 670: Financial Economics"
+    level: "M.S. in Applied Economics"
+    terms: "Spring 2025"
+  - course: "ECON 643: Empirical Analysis I: Foundations of Empirical Research"
+    level: "M.S. in Applied Economics"
+    terms: "Spring 2025"
