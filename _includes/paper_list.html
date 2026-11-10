@@ -7,6 +7,7 @@
     {%- if paper.coauthors %}<p class="meta">with {{ paper.coauthors }}</p>{% endif %}
     {%- if paper.venue %}<p class="meta"><em>{{ paper.venue }}</em>{% if paper.year %}, {{ paper.year }}{% endif %}</p>{% endif %}
     {%- if paper.status %}<p class="meta">{{ paper.status }}</p>{% endif %}
+    {%- if paper.presentations %}<p class="meta">Presentations: {{ paper.presentations | join: "; " }}</p>{% endif %}
     {%- if paper.coverage %}
     <p class="meta">Media coverage:
       {%- for c in paper.coverage %} <a href="{{ c.url }}">{{ c.outlet }}</a>{% unless forloop.last %},{% endunless %}{% endfor %}

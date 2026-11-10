@@ -1,10 +1,12 @@
 # Papers shown on the homepage. Each section is a list; add a paper by copying an entry.
 # Optional fields: coauthors, status, link (URL or path to a PDF), abstract,
-# coverage (list of outlet + url).
+# presentations (list of strings), coverage (list of outlet + url).
 
 working_papers:
   - title: "Property Tax Self-Sufficiency and New Housing: Evidence from New York City"
     status: "Draft available upon request"
+    presentations:
+      - "National Tax Association Annual Conference 2026"
     abstract: >-
       This paper evaluates the property tax self-sufficiency of new housing in
       New York City. I develop a sufficient-statistics framework based on the
